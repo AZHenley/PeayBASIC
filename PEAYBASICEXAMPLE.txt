@@ -1,0 +1,19 @@
+print 'hello, world!'
+
+for i = 0 to 10
+	if i % 2 = 0 then
+		print 'EVEN NUMBER', i
+	endif
+next i
+
+for x = 0 to 19
+	let foo = cos x
+	let foo = foo + 5
+	draw x, foo
+next x
+
+for j = 0 to 19
+	for k = 0 to 14
+		draw j, k
+	next k
+next j
